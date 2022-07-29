@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script language="javascript">
+    var n=6,m,avail=80;
+m=parseInt(window.prompt("enter no of tickets=","0"));
+var price,discount=0,total;
+if(m<=6 && m>0)
+{
+    price=m*150;
+    if(m>2)
+    {
+        discount=price*(10/100);
+    }
+total=price-discount;
+document.write("total:"+total);
+}
+else{
+    document.write("enetr properly");
+
+}avail=avail-m;
+</script>
+</body>
+</html>
