@@ -1,0 +1,17 @@
+<html>
+<body>
+<p  id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<script>
+const names=["mani","rajesh","sai","ranga"];
+const names1=["ma","rh","si","r"];
+document.getElementById("demo1").innerHTML=names.push("venky");
+document.write(names);
+names1.push('fdf');
+document.getElementById("demo2").innerHTML=names1;
+names1.pop();
+document.getElementById("demo3").innerHTML=names1;
+</script>
+</body>
+</html>
